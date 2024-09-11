@@ -105,7 +105,7 @@ You can style the widget to match your website’s design. Here’s a basic CSS 
 Once you've embedded the widget, open your website in a browser and you should see the Google Translate dropdown at the top of the page. When users select a different language from the dropdown, Google Translate will automatically translate the content of your site.
 
 Limitations:<br>
-- Quality of Translation**: Machine translation may not always be perfect, so it may require review for critical content.<br>
+- Quality of Translation: Machine translation may not always be perfect, so it may require review for critical content.<br>
 - SEO: Google Translate doesn’t impact the actual text on your website in the source code, so search engines will still index the original language.<br>
 - Client-Side Translation: The widget works on the client-side, so the original content remains in your base language in the source code.<br>
 
