@@ -31,15 +31,37 @@ HTML Example with Google Translate Widget:
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website with Google Translate</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_1b8c373165aaa3cc75a91a310ad195f98'
+    });
+</script>
 </head>
 <body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="logo">DPM</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+    </nav>
 
     <!-- Google Translate Element -->
     <div id="google_translate_element"></div>
 
-    <!-- Your website content -->
-    <h1>Welcome to My Website</h1>
-    <p>This is a simple website that supports multiple languages using Google Translate.</p>
+    <!-- Website Content -->
+    <div class="content">
+        <h1>Welcome to My Website</h1>
+        <p>This is a simple website that supports multiple languages using Google Translate.</p>
+        <h6>To use the <b>Google Translate Web Widget</b> for free, you can embed the widget on your website to enable automatic translation of your entire site into various languages. continue with README on how to integrate the widget<br><br><br>
+        </h6>
+    </div>
 
     <!-- Google Translate Script -->
     <script type="text/javascript">
@@ -52,8 +74,14 @@ HTML Example with Google Translate Widget:
         }
     </script>
 
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
+    <!-- Custom Script for Menu -->
+    <script>
+        function toggleMenu() {
+            const navLinks = document.querySelector('.nav-links');
+            navLinks.classList.toggle('active');
+        }
+    </script>
 </body>
 </html>
 ```
