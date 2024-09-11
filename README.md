@@ -1,4 +1,4 @@
-££££££This is a simple website that supports multiple languages using Google Translate.££££££
+<p>This is a simple website that supports multiple languages using Google Translate.</p>
         <h6>To use the <b>Google Translate Web Widget</b> for free, you can embed the widget on your website to enable automatic translation of your entire site into various languages. Here's a step-by-step guide on how to integrate the widget<br><br><br>
 
 <strong>1. Generate the Google Translate Widget Code</strong><br>
