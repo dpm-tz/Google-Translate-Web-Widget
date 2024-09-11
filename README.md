@@ -14,7 +14,8 @@ Follow these steps:<br>
    - Choose the original language of your site (e.g., English).<br>
    - Select the languages you want to offer for translation.<br>
         </ol><br><br>
-        If you're working on a project without a domain (like developing locally or using a local server), you can still test and implement translation features. For learning purposes, you can either use a local server (e.g., `localhost`) or a development platform (like GitHub Pages or Netlify) to host your website temporarily without needing a domain.
+        <ol></ol><strong>Note:<i>website UR</i> You must have a Domain Name ('example.com') <br>
+                If you're working on a project without a domain (like developing locally or using a local server), you can still test and implement translation features. For learning purposes, you can either use a local server (e.g., `localhost`) or a development platform (like GitHub Pages or Netlify) to host your website temporarily without needing a domain.
 
 Here are a couple of solutions:
 
@@ -32,15 +33,11 @@ If you want to use a service that requires a domain but don’t have one yet, co
 
 - **Vercel**: Another option is [Vercel](https://vercel.com/), which provides free hosting with a subdomain like `https://yourprojectname.vercel.app`.
 
-### 3. **Use a Free Subdomain Service**
+### 3. **You can Use a Free Subdomain Service**
 You can also get a free subdomain from services like **Freenom** (e.g., `yourproject.tk` or `yourproject.ml`). This will give you a temporary domain for testing purposes without needing to purchase a real domain.
 
-### Next Steps:
-- Choose a free hosting service like GitHub Pages, Netlify, or Vercel.
-- Deploy your project to that platform to obtain a public URL.
-- Use that URL for services like Weglot or other translation tools that require a domain.
 
-If you're just testing locally, Google Translate or similar translation tools should work fine.
+
 
 4. Google will then generate a code snippet for you to place in your website's HTML.<br><br>
 
