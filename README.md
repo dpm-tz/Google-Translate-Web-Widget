@@ -14,7 +14,7 @@ Follow these steps:<br>
    - Choose the original language of your site (e.g., English).<br>
    - Select the languages you want to offer for translation.<br>
         </ol><br><br>
-        <ol></ol><strong>Note:<i>website URL</i> You must have a Domain Name (`example.com`) <br>
+        <ol><strong>Note:<i>website URL</i> You must have a Domain name (e.g., `http://example.com`) <br>
                 If you're working on a project without a domain (like developing locally or using a local server), you can still test and implement translation features. For learning purposes, you can either use a local server (e.g., `localhost`) or a development platform (like GitHub Pages or Netlify) to host your website temporarily without needing a domain.
 
 Here are a couple of solutions:
@@ -35,7 +35,7 @@ If you want to use a service that requires a domain but don’t have one yet, co
 
 ### 3. **You can Use a Free Subdomain Service**
 You can also get a free subdomain from services like **Freenom** (e.g., `yourproject.tk` or `yourproject.ml`). This will give you a temporary domain for testing purposes without needing to purchase a real domain.
-</ol>
+</ol></ol>
 
 
 
