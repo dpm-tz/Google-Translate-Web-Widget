@@ -22,7 +22,7 @@ Once you have the code snippet, embed it into your website. Typically, you'll wa
 
 <br><br>
 
-HTML Example with Google Translate Widget:**
+HTML Example with Google Translate Widget:
 
 ```html
 <!DOCTYPE html>
